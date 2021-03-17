@@ -1,6 +1,6 @@
-# Sample 02 - Calling an API
+# Pizza42 - Calling an API
 
-This app demonstrates how to log in using the Auth0 Universal Page, and call a backend API using an access token.
+This app demonstrates sample Auth0 application which is using the Auth0 Universal Page, and call a backend API using an access token and also update the user's Auth0 profiel and id_token for the user's last order.
 
 ## Installation
 
