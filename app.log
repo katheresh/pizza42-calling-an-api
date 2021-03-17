@@ -1,0 +1,29 @@
+
+> 03-calling-an-api@1.0.0 start /Users/kathereshjayaprakash/Documents/Documents-AU13394/Auth0/02-calling-an-api
+> node bin/www
+
+Server listening on port 3000
+[0mGET / [36m304[0m 4.759 ms - -[0m
+[0mGET /css/main.css [36m304[0m 0.657 ms - -[0m
+[0mGET /js/ui.js [36m304[0m 0.815 ms - -[0m
+[0mGET /images/pizza.jpeg [36m304[0m 0.968 ms - -[0m
+[0mGET /js/app.js [32m200[0m 3.794 ms - 4286[0m
+[0mGET /auth_config.json [36m304[0m 1.048 ms - -[0m
+[0mGET /favicon.ico [36m304[0m 0.558 ms - -[0m
+[0mGET /favicon.ico [36m304[0m 1.171 ms - -[0m
+[0mGET /api/external [36m304[0m 212.300 ms - -[0m
+[0mGET /external-api [36m304[0m 1.095 ms - -[0m
+[0mGET /css/main.css [36m304[0m 0.446 ms - -[0m
+[0mGET /js/ui.js [36m304[0m 0.584 ms - -[0m
+[0mGET /js/app.js [32m200[0m 1.197 ms - 4406[0m
+[0mGET /images/pizza.jpeg [36m304[0m 0.636 ms - -[0m
+[0mGET /auth_config.json [36m304[0m 0.654 ms - -[0m
+[0mGET /favicon.ico [32m200[0m 1.083 ms - 11936[0m
+[0mGET /external-api [36m304[0m 0.621 ms - -[0m
+[0mGET /css/main.css [36m304[0m 0.484 ms - -[0m
+[0mGET /js/ui.js [36m304[0m 0.671 ms - -[0m
+[0mGET /js/app.js [36m304[0m 0.753 ms - -[0m
+[0mGET /images/pizza.jpeg [36m304[0m 0.398 ms - -[0m
+[0mGET /auth_config.json [36m304[0m 1.777 ms - -[0m
+[0mGET /favicon.ico [32m200[0m 3.313 ms - 11936[0m
+[0mGET /api/external [36m304[0m 3264.957 ms - -[0m
