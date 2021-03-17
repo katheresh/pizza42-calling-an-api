@@ -1,28 +1,28 @@
 {
-  "name": "03-calling-an-api",
-  "version": "1.0.0",
-  "description": "The purpose of this article is to demonstrate how to call a backend API using an access token",
-  "main": "server.js",
-  "dependencies": {
-    "auth0": "^2.33.0",
-    "axios": "^0.21.1",
-    "express": "^4.17.1",
-    "express-jwt": "^6.0.0",
-    "helmet": "^3.23.3",
-    "jwks-rsa": "^1.12.2",
-    "morgan": "^1.10.0",
-    "request": "^2.88.2",
-    "require": "^2.4.20",
-    "requirejs": "^2.3.6"
-  },
-  "devDependencies": {
-    "nodemon": "^1.19.4",
-    "npm-run-all": "^4.1.5"
-  },
-  "scripts": {
-    "start": "node bin/www",
-    "dev": "nodemon bin/www"
-  },
-  "author": "",
-  "license": "MIT"
+    "name": "pizza42-calling-an-api",
+    "version": "1.0.0",
+    "description": "The purpose of this article is to demonstrate how to call a backend API using an access token",
+    "main": "server.js",
+    "dependencies": {
+        "auth0": "^2.33.0",
+        "axios": "^0.21.1",
+        "express": "^4.17.1",
+        "express-jwt": "^6.0.0",
+        "helmet": "^3.23.3",
+        "jwks-rsa": "^1.12.2",
+        "morgan": "^1.10.0",
+        "request": "^2.88.2",
+        "require": "^2.4.20",
+        "requirejs": "^2.3.6"
+    },
+    "devDependencies": {
+        "nodemon": "^1.19.4",
+        "npm-run-all": "^4.1.5"
+    },
+    "scripts": {
+        "start": "node bin/www",
+        "dev": "nodemon bin/www"
+    },
+    "author": "",
+    "license": "MIT"
 }

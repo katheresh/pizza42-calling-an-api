@@ -78,7 +78,7 @@ app.get("/api/external", checkJwt, (req, res) => {
                     url: 'https://dev-whr8fx91.au.auth0.com/api/v2/users/' + userID,
                     headers: { authorization: `Bearer ${m2mToken}`, 'content-type': 'application/json' },
                     scope: 'update:current_user_metadata',
-                    data: { user_metadata: { pizza: '2 Large Tandoori Pizza', drink: '1 - 1.2L Drink', side: '1 - Large Fries', hobby: 'Tennis' } }
+                    data: { user_metadata: { pizza: '2 Large Tandoori Pizza', drink: '1 - 1.2L Drink', side: '1 - Large Fries', hobby: 'Tennis1' } }
                 };
 
                 axios.request(options_userprofile).then(function(responseUserProfile) {
@@ -92,7 +92,7 @@ app.get("/api/external", checkJwt, (req, res) => {
         });
 
     } catch (err) {
-        console.log("Error updating UserProfile at line 75!!!!!!!", err);
+        console.log("Error updating UserProfile at line 95!!!!!!!", err);
         return;
     }
     res.send({
